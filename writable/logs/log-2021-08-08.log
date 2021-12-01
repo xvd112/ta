@@ -1,0 +1,171 @@
+CRITICAL - 2021-08-08 02:52:50 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-08 02:52:58 --> Cannot declare class App\Controllers\Home, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-08 03:29:30 --> Invalid file: template.php
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template.php')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('template', Array, true)
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('web/index', Array, true)
+#3 C:\wamp64\www\nagari\app\Controllers\Web.php(19): view('web/index')
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Web->index()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\n...')
+#9 {main}
+CRITICAL - 2021-08-08 03:29:46 --> Invalid file: /template.php
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/template.php')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('/template', Array, true)
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('web/index', Array, true)
+#3 C:\wamp64\www\nagari\app\Controllers\Web.php(19): view('web/index')
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Web->index()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\n...')
+#9 {main}
+CRITICAL - 2021-08-08 03:40:09 --> Undefined variable: base_url
+#0 C:\wamp64\www\nagari\app\Views\web\index.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 9, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('web/index', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Web.php(19): view('web/index')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Web->index()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+ERROR - 2021-08-08 05:10:49 --> Unknown table 'nagari.galeri'
+ERROR - 2021-08-08 05:10:57 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2021-08-08 05:11:53 --> Unknown table 'nagari.galeri'
+CRITICAL - 2021-08-08 05:23:57 --> Call to undefined method App\Models\GaleriModel::getRow
+#0 C:\wamp64\www\nagari\app\Models\GaleriModel.php(41): CodeIgniter\Model->__call('getRow', Array)
+#1 C:\wamp64\www\nagari\app\Controllers\Web.php(22): App\Models\GaleriModel->gambar('Logo Icon')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Web->index()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\n...')
+#7 {main}
+CRITICAL - 2021-08-08 05:26:26 --> Trying to get property 'icon' of non-object
+#0 C:\wamp64\www\nagari\app\Views\web\template.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\n...', 13, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('web/template', Array, true)
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('web/index', Array, true)
+#5 C:\wamp64\www\nagari\app\Controllers\Web.php(34): view('web/index', Array)
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Web->index()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\n...')
+#11 {main}
+CRITICAL - 2021-08-08 06:00:45 --> Trying to get property 'x' of non-object
+#0 C:\wamp64\www\nagari\app\Controllers\Web.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\n...', 68, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Web->visi()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-08-08 06:11:39 --> Invalid file: web/wilayah.php
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('web/wilayah.php')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('web/wilayah', Array, true)
+#2 C:\wamp64\www\nagari\app\Controllers\Web.php(104): view('web/wilayah', Array)
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Web->wilayah()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\n...')
+#8 {main}
+CRITICAL - 2021-08-08 07:51:07 --> Call to undefined function Myth\Auth\Controllers\in_groups()
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(928): Myth\Auth\Controllers\AuthController->attemptLogin()
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\n...')
+#5 {main}
+CRITICAL - 2021-08-08 07:51:53 --> Call to undefined function Myth\Auth\Controllers\in_groups()
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(928): Myth\Auth\Controllers\AuthController->attemptLogin()
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\n...')
+#5 {main}
+CRITICAL - 2021-08-08 07:54:28 --> Undefined variable: x
+#0 C:\wamp64\www\nagari\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 28, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-08-08 07:55:42 --> Undefined variable: x
+#0 C:\wamp64\www\nagari\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 28, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-08-08 07:56:15 --> Undefined variable: x
+#0 C:\wamp64\www\nagari\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 28, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-08-08 07:58:37 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('template/index', Array, true)
+#2 C:\wamp64\www\nagari\app\Controllers\Home.php(34): view('template/index', Array)
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\n...')
+#8 {main}
+CRITICAL - 2021-08-08 08:11:09 --> Undefined variable: link
+#0 C:\wamp64\www\nagari\app\Views\template\header.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 16, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(487): CodeIgniter\View\View->render('template/header', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(2): CodeIgniter\View\View->include('template/header')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\app\Controllers\Home.php(34): view('template/index', Array)
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\n...')
+#14 {main}
+CRITICAL - 2021-08-08 08:23:09 --> Trying to get property 'nama' of non-object
+#0 C:\wamp64\www\nagari\app\Views\profile\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\n...', 38, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('profile/index', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Home.php(36): view('profile/index', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-08-08 08:24:18 --> Trying to get property 'nama' of non-object
+#0 C:\wamp64\www\nagari\app\Views\profile\index.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\n...', 38, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1271): CodeIgniter\View\View->render('profile/index', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Home.php(37): view('profile/index', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(928): App\Controllers\Home->index()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\n...')
+#10 {main}

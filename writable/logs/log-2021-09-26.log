@@ -1,0 +1,450 @@
+CRITICAL - 2021-09-26 02:43:06 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\nagari\app\Views\user\edit.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\n...', 61, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('user/edit', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\User.php(173): view('user/edit', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->edit('5')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-26 02:54:06 --> Undefined variable: id
+#0 C:\wamp64\www\nagari\app\Controllers\User.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 140, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->add()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-26 07:32:18 --> Trying to get property 'nama' of non-object
+#0 C:\wamp64\www\nagari\app\Views\template\header.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\n...', 41, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/header', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(2): CodeIgniter\View\View->include('template/header')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('beranda/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Home.php(91): view('beranda/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-26 07:53:11 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\nagari\app\Controllers\Pemuda.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\n...', 268, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemuda->proses()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemuda))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-26 07:54:35 --> Trying to access array offset on value of type null
+#0 C:\wamp64\www\nagari\app\Controllers\Pemuda.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\wamp64\\www\\n...', 268, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Pemuda->proses()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemuda))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:00:29 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbnagari`.`permohonan`, CONSTRAINT `mohon_penduduk` FOREIGN KEY (`id_penduduk`) REFERENCES `penduduk` (`id_penduduk`))
+ERROR - 2021-09-26 08:00:51 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbnagari`.`permohonan`, CONSTRAINT `mohon_penduduk` FOREIGN KEY (`id_penduduk`) REFERENCES `penduduk` (`id_penduduk`))
+ERROR - 2021-09-26 08:01:16 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbnagari`.`permohonan`, CONSTRAINT `mohon_penduduk` FOREIGN KEY (`id_penduduk`) REFERENCES `penduduk` (`id_penduduk`))
+ERROR - 2021-09-26 08:01:21 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbnagari`.`permohonan`, CONSTRAINT `mohon_penduduk` FOREIGN KEY (`id_penduduk`) REFERENCES `penduduk` (`id_penduduk`))
+ERROR - 2021-09-26 08:01:29 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbnagari`.`permohonan`, CONSTRAINT `mohon_penduduk` FOREIGN KEY (`id_penduduk`) REFERENCES `penduduk` (`id_penduduk`))
+ERROR - 2021-09-26 08:05:31 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbnagari`.`permohonan`, CONSTRAINT `mohon_user` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`))
+ERROR - 2021-09-26 08:05:31 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbnagari`.`permohonan`, CONSTRAINT `mohon_penduduk` FOREIGN KEY (`id_penduduk`) REFERENCES `penduduk` (`id_penduduk`))
+ERROR - 2021-09-26 08:05:44 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbnagari`.`permohonan`, CONSTRAINT `mohon_user` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`))
+ERROR - 2021-09-26 08:05:44 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbnagari`.`permohonan`, CONSTRAINT `mohon_penduduk` FOREIGN KEY (`id_penduduk`) REFERENCES `penduduk` (`id_penduduk`))
+ERROR - 2021-09-26 08:07:12 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbnagari`.`permohonan`, CONSTRAINT `mohon_user` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`))
+ERROR - 2021-09-26 08:07:12 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbnagari`.`permohonan`, CONSTRAINT `mohon_penduduk` FOREIGN KEY (`id_penduduk`) REFERENCES `penduduk` (`id_penduduk`))
+ERROR - 2021-09-26 08:07:46 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbnagari`.`permohonan`, CONSTRAINT `mohon_penduduk` FOREIGN KEY (`id_penduduk`) REFERENCES `penduduk` (`id_penduduk`))
+ERROR - 2021-09-26 08:08:19 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbnagari`.`permohonan`, CONSTRAINT `mohon_user` FOREIGN KEY (`id_user`) REFERENCES `users` (`id`))
+ERROR - 2021-09-26 08:08:19 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbnagari`.`permohonan`, CONSTRAINT `mohon_penduduk` FOREIGN KEY (`id_penduduk`) REFERENCES `penduduk` (`id_penduduk`))
+CRITICAL - 2021-09-26 08:12:11 --> Trying to get property 'nama' of non-object
+#0 C:\wamp64\www\nagari\app\Views\aduan\viewadmin.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\n...', 21, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('aduan/viewadmin', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Aduan.php(77): view('aduan/viewadmin', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Aduan->view('2', 'belum')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Aduan))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-26 08:17:04 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\nagari\app\Models\AuthModel.php(48): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(358): App\Models\AuthModel->cariuser('2317', 'id_datauser', 'users')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#7 {main}
+ERROR - 2021-09-26 08:17:43 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:17:43 --> Call to a member function getRow() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(360): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'aduan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:17:57 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:17:57 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 365, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:18:14 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:18:14 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 365, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-26 08:18:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(358): App\Models\AuthModel->cariuser('2317', 'id_datauser', 'users')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-26 08:19:00 --> Function name must be a string
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(358): App\Models\AuthModel->cariuser('2317', 'id_datauser', 'users')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-26 08:19:08 --> Function name must be a string
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(358): App\Models\AuthModel->cariuser('2317', 'id_datauser', 'users')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-26 08:19:15 --> Function name must be a string
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(358): App\Models\AuthModel->cariuser('2317', 'id_datauser', 'users')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-26 08:19:44 --> Function name must be a string
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(359): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'permohonan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-26 08:20:54 --> Function name must be a string
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(358): App\Models\AuthModel->cariuser('2317', 'id_datauser', 'users')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-26 08:21:21 --> Function name must be a string
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(358): App\Models\AuthModel->cariuser('2317', 'id_datauser', 'users')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:21:30 --> Unknown column 'id_penduduk' in 'where clause'
+ERROR - 2021-09-26 08:21:30 --> Unknown column 'id_penduduk' in 'where clause'
+ERROR - 2021-09-26 08:21:40 --> Unknown column 'id_penduduk' in 'where clause'
+ERROR - 2021-09-26 08:21:46 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:21:46 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 365, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:21:55 --> Unknown column 'id_penduduk' in 'where clause'
+ERROR - 2021-09-26 08:22:09 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:22:09 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(360): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'aduan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:22:16 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:22:16 --> Call to a member function getRow() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(360): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'aduan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:22:41 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:22:41 --> Call to a member function getRowArray() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(360): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'aduan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:23:03 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:23:03 --> Call to a member function getRow() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(359): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'permohonan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:23:51 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:23:51 --> Call to a member function getRow() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(360): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'aduan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:23:54 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:23:54 --> Call to a member function getRow() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(360): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'aduan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:24:03 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:24:03 --> Call to a member function getRow() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(360): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'aduan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:25:11 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:25:11 --> Call to a member function getRowArray() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(360): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'aduan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:25:44 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:25:44 --> Call to a member function getRowArray() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(359): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'permohonan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:28:32 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:28:32 --> Call to a member function getRowArray() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(360): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'aduan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:28:33 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:28:33 --> Call to a member function getRowArray() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(360): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'aduan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:28:42 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:29:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::geRow()
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(358): App\Models\AuthModel->cariuser('2317', 'id_datauser', 'users')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:30:02 --> Unknown column 'id_penduduk' in 'where clause'
+ERROR - 2021-09-26 08:30:13 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:30:13 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 365, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:30:51 --> Unknown column 'id' in 'field list'
+ERROR - 2021-09-26 08:30:51 --> Unknown column 'id' in 'field list'
+CRITICAL - 2021-09-26 08:30:51 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$id
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(365): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 365, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:31:00 --> Unknown column 'id' in 'field list'
+ERROR - 2021-09-26 08:31:00 --> Unknown column 'id' in 'field list'
+CRITICAL - 2021-09-26 08:31:00 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Database\Query.php(328): strtr('DELETE FROM `us...', Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('DELETE FROM `us...', Array)
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2175): CodeIgniter\Database\BaseConnection->query('DELETE FROM `us...', Array, false)
+#5 C:\wamp64\www\nagari\app\Models\AuthModel.php(38): CodeIgniter\Database\BaseBuilder->delete(Array)
+#6 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(365): App\Models\AuthModel->hapusUser(Object(CodeIgniter\Database\MySQLi\Result))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#12 {main}
+ERROR - 2021-09-26 08:31:07 --> Unknown column 'id' in 'field list'
+ERROR - 2021-09-26 08:31:07 --> Unknown column 'id' in 'field list'
+ERROR - 2021-09-26 08:31:30 --> Unknown column 'id' in 'field list'
+CRITICAL - 2021-09-26 08:31:30 --> Call to a member function getResultArray() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(359): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'permohonan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:31:39 --> Unknown column 'id' in 'field list'
+CRITICAL - 2021-09-26 08:31:39 --> Call to a member function getResultArray() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(359): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'permohonan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:32:25 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:32:25 --> Call to a member function getRow() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(359): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'permohonan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:34:44 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:34:44 --> Call to a member function getRow() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(361): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'aduan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:36:09 --> Unknown column 'level' in 'where clause'
+CRITICAL - 2021-09-26 08:36:09 --> Call to a member function getRow() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(360): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'permohonan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:36:17 --> Unknown column 'level' in 'where clause'
+CRITICAL - 2021-09-26 08:36:17 --> Call to a member function getRow() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(360): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'permohonan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:36:30 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:36:30 --> Call to a member function getRow() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(360): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'permohonan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:36:36 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:36:36 --> Call to a member function getRow() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(360): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'permohonan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:36:45 --> Unknown column 'id_penduduk' in 'where clause'
+CRITICAL - 2021-09-26 08:36:45 --> Call to a member function getRow() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(360): App\Models\AuthModel->cariuser('2317', 'id_penduduk', 'permohonan')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->delete('2317')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-26 08:37:23 --> Cannot delete or update a parent row: a foreign key constraint fails (`dbnagari`.`permohonan`, CONSTRAINT `mohon_penduduk` FOREIGN KEY (`id_penduduk`) REFERENCES `penduduk` (`id_penduduk`))
+ERROR - 2021-09-26 08:51:29 --> Error connecting to the database: Class 'SQLite3' not found
+ERROR - 2021-09-26 08:51:42 --> Cannot add foreign key constraint
+ERROR - 2021-09-26 08:51:42 --> Cannot add foreign key constraint
+ERROR - 2021-09-26 08:51:44 --> Cannot add foreign key constraint
+ERROR - 2021-09-26 08:52:44 --> Unknown table 'dbnagari.permohonan'
+ERROR - 2021-09-26 08:52:44 --> Unknown table 'dbnagari.surat'
+ERROR - 2021-09-26 08:52:45 --> Unknown table 'dbnagari.aduan'
+ERROR - 2021-09-26 08:52:45 --> Cannot add foreign key constraint
+ERROR - 2021-09-26 08:52:45 --> Cannot add foreign key constraint
+ERROR - 2021-09-26 08:52:47 --> Cannot add foreign key constraint
+ERROR - 2021-09-26 09:02:46 --> Unknown column 'syarat_surat' in 'field list'
+ERROR - 2021-09-26 09:03:04 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-26 09:03:04 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-26 09:03:04 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-26 09:03:04 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-26 09:03:04 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-26 09:03:04 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-26 09:03:04 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-26 09:03:04 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-26 09:03:04 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-26 09:03:04 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-26 09:03:04 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-26 09:03:04 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-26 09:05:45 --> Duplicate entry '1304022410070008' for key 'no_kk'
+ERROR - 2021-09-26 09:05:46 --> Duplicate entry '1304023011090001' for key 'no_kk'
+ERROR - 2021-09-26 09:06:13 --> Duplicate entry '1304020410070022' for key 'no_kk'
+CRITICAL - 2021-09-26 09:48:08 --> Undefined offset: 4
+#0 C:\wamp64\www\nagari\app\Views\web\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\n...', 36, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('web/index', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Web.php(50): view('web/index', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->index()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}

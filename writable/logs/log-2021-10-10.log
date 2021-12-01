@@ -1,0 +1,54 @@
+CRITICAL - 2021-10-10 04:02:02 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Model.php on line 720
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Model.php(720): CodeIgniter\Database\BaseBuilder->like('tgl_berhenti', NULL)
+#1 C:\wamp64\www\nagari\app\Models\PerangkatModel.php(74): CodeIgniter\Model->__call('like', Array)
+#2 C:\wamp64\www\nagari\app\Controllers\Web.php(324): App\Models\PerangkatModel->data('Alim Ulama')
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->ulama()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#8 {main}
+CRITICAL - 2021-10-10 04:04:07 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orLike() must be of the type string, null given, called in C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Model.php on line 720
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Model.php(720): CodeIgniter\Database\BaseBuilder->orLike('tgl_berhenti', NULL)
+#1 C:\wamp64\www\nagari\app\Models\PerangkatModel.php(74): CodeIgniter\Model->__call('orLike', Array)
+#2 C:\wamp64\www\nagari\app\Controllers\Web.php(324): App\Models\PerangkatModel->data('Alim Ulama')
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->ulama()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#8 {main}
+CRITICAL - 2021-10-10 04:13:59 --> Illegal string offset 'jabatan'
+#0 C:\wamp64\www\nagari\app\Views\web\perangkat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\n...', 13, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('web/perangkat', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Web.php(234): view('web/perangkat', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->perangkat()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+ERROR - 2021-10-10 04:16:30 --> Unknown column 'keterangan' in 'where clause'
+CRITICAL - 2021-10-10 04:16:30 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\wamp64\www\nagari\app\Models\PerangkatModel.php(74): CodeIgniter\BaseModel->findAll()
+#2 C:\wamp64\www\nagari\app\Controllers\Web.php(232): App\Models\PerangkatModel->data('Perangkat Nagar...')
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->perangkat()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#8 {main}
+ERROR - 2021-10-10 04:16:42 --> Unknown column 'keterangan' in 'where clause'
+CRITICAL - 2021-10-10 04:16:42 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\wamp64\www\nagari\app\Models\PerangkatModel.php(74): CodeIgniter\BaseModel->findAll()
+#2 C:\wamp64\www\nagari\app\Controllers\Web.php(232): App\Models\PerangkatModel->data('Perangkat Nagar...')
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->perangkat()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#8 {main}

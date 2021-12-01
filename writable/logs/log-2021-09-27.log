@@ -1,0 +1,24 @@
+CRITICAL - 2021-09-27 01:08:00 --> Trying to get property 'nama' of non-object
+#0 C:\wamp64\www\nagari\app\Views\surat\printskm.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\n...', 59, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/printskm', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sktm.php(178): view('surat/printskm', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sktm->print('2')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sktm))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-27 01:09:34 --> Trying to get property 'nama' of non-object
+#0 C:\wamp64\www\nagari\app\Views\surat\printskm.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\n...', 59, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/printskm', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sktm.php(178): view('surat/printskm', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sktm->print('2')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sktm))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}

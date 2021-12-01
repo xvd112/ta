@@ -1,0 +1,234 @@
+ERROR - 2021-09-21 05:30:36 --> Cannot add foreign key constraint
+ERROR - 2021-09-21 05:30:36 --> Cannot add foreign key constraint
+ERROR - 2021-09-21 05:30:39 --> Cannot add foreign key constraint
+CRITICAL - 2021-09-21 05:31:36 --> Undefined variable: kerja
+#0 C:\wamp64\www\nagari\app\Controllers\Web.php(406): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 406, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-21 05:32:14 --> Table 'dbnagari.permohonan' doesn't exist
+ERROR - 2021-09-21 05:32:14 --> Table 'dbnagari.permohonan' doesn't exist
+ERROR - 2021-09-21 05:32:14 --> Table 'dbnagari.permohonan' doesn't exist
+ERROR - 2021-09-21 05:32:14 --> Table 'dbnagari.permohonan' doesn't exist
+ERROR - 2021-09-21 05:32:14 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:32:14 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:32:14 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:32:14 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:32:14 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:32:14 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:32:14 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:32:14 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:32:14 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:32:14 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:32:14 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:32:14 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:34:36 --> Unknown table 'dbnagari.permohonan'
+ERROR - 2021-09-21 05:34:36 --> Unknown table 'dbnagari.surat'
+ERROR - 2021-09-21 05:34:36 --> Unknown table 'dbnagari.aduan'
+ERROR - 2021-09-21 05:34:37 --> Cannot add foreign key constraint
+ERROR - 2021-09-21 05:34:37 --> Cannot add foreign key constraint
+ERROR - 2021-09-21 05:34:39 --> Cannot add foreign key constraint
+ERROR - 2021-09-21 05:35:17 --> Unknown table 'dbnagari.permohonan'
+ERROR - 2021-09-21 05:35:17 --> Unknown table 'dbnagari.surat'
+ERROR - 2021-09-21 05:35:18 --> Unknown table 'dbnagari.aduan'
+ERROR - 2021-09-21 05:35:19 --> Cannot add foreign key constraint
+ERROR - 2021-09-21 05:35:19 --> Cannot add foreign key constraint
+ERROR - 2021-09-21 05:35:22 --> Cannot add foreign key constraint
+ERROR - 2021-09-21 05:40:23 --> Unknown column 'surat' in 'field list'
+ERROR - 2021-09-21 05:42:58 --> Duplicate entry '1304022410070008' for key 'no_kk'
+ERROR - 2021-09-21 05:42:59 --> Duplicate entry '1304023011090001' for key 'no_kk'
+ERROR - 2021-09-21 05:43:47 --> Duplicate entry '1304020410070022' for key 'no_kk'
+CRITICAL - 2021-09-21 05:44:19 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 15504520 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 05:44:31 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 15504520 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 05:45:48 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 15504520 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-21 05:46:56 --> Table 'dbnagari.permohonan' doesn't exist
+ERROR - 2021-09-21 05:46:56 --> Table 'dbnagari.permohonan' doesn't exist
+ERROR - 2021-09-21 05:46:56 --> Table 'dbnagari.permohonan' doesn't exist
+ERROR - 2021-09-21 05:46:56 --> Table 'dbnagari.permohonan' doesn't exist
+ERROR - 2021-09-21 05:46:56 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:46:56 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:46:56 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:46:56 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:46:56 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:46:56 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:46:56 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:46:56 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:46:56 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:46:56 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:46:56 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:46:56 --> Table 'dbnagari.aduan' doesn't exist
+ERROR - 2021-09-21 05:47:15 --> Table 'dbnagari.surat' doesn't exist
+CRITICAL - 2021-09-21 05:47:15 --> Call to a member function getResultArray() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Sku.php(72): App\Models\SuratModel->getSurat(false, 'SKU')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->index()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-21 05:47:51 --> Table 'dbnagari.surat' doesn't exist
+CRITICAL - 2021-09-21 05:47:51 --> Call to a member function getResultArray() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Sktm.php(72): App\Models\SuratModel->getSurat(false, 'SKTM')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sktm->index()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sktm))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-21 05:48:07 --> Table 'dbnagari.surat' doesn't exist
+CRITICAL - 2021-09-21 05:48:07 --> Call to a member function getResultArray() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Sku.php(72): App\Models\SuratModel->getSurat(false, 'SKU')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->index()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-21 05:48:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\wamp64\www\nagari\app\Controllers\Sku.php(72): App\Models\SuratModel->getSurat(false, 'SKU')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->index()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-21 05:48:43 --> Table 'dbnagari.surat' doesn't exist
+CRITICAL - 2021-09-21 05:48:43 --> Call to a member function getResultArray() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Sku.php(72): App\Models\SuratModel->getSurat(false, 'SKU')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->index()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-21 05:49:14 --> Table 'dbnagari.surat' doesn't exist
+CRITICAL - 2021-09-21 05:49:14 --> Call to a member function getRowArray() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Sku.php(72): App\Models\SuratModel->getSurat(false, 'SKU')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->index()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-21 05:49:43 --> Table 'dbnagari.surat' doesn't exist
+CRITICAL - 2021-09-21 05:49:43 --> Call to a member function getResultArray() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Sku.php(72): App\Models\SuratModel->getSurat(false, 'SKU')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->index()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-21 05:50:17 --> Table 'dbnagari.surat' doesn't exist
+CRITICAL - 2021-09-21 05:50:17 --> Call to a member function getResultArray() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Sku.php(72): App\Models\SuratModel->getSurat(false, 'SKU')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->index()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-21 05:51:31 --> Table 'dbnagari.surat' doesn't exist
+CRITICAL - 2021-09-21 05:51:31 --> Call to a member function getResultArray() on bool
+#0 C:\wamp64\www\nagari\app\Controllers\Sku.php(72): App\Models\SuratModel->getSurat(false, 'SKU')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->index()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-21 05:52:31 --> Unknown table 'dbnagari.permohonan'
+ERROR - 2021-09-21 05:52:31 --> Unknown table 'dbnagari.surat'
+ERROR - 2021-09-21 05:52:32 --> Unknown table 'dbnagari.aduan'
+ERROR - 2021-09-21 05:52:32 --> Cannot add foreign key constraint
+ERROR - 2021-09-21 05:52:32 --> Cannot add foreign key constraint
+ERROR - 2021-09-21 05:52:34 --> Cannot add foreign key constraint
+ERROR - 2021-09-21 05:54:18 --> Cannot add foreign key constraint
+ERROR - 2021-09-21 05:54:18 --> Cannot add foreign key constraint
+ERROR - 2021-09-21 05:54:20 --> Cannot add foreign key constraint
+ERROR - 2021-09-21 05:55:31 --> Unknown table 'dbnagari.permohonan'
+ERROR - 2021-09-21 05:55:31 --> Unknown table 'dbnagari.surat'
+ERROR - 2021-09-21 05:55:31 --> Unknown table 'dbnagari.aduan'
+ERROR - 2021-09-21 05:55:45 --> Error connecting to the database: Class 'SQLite3' not found
+ERROR - 2021-09-21 05:55:59 --> Cannot add foreign key constraint
+ERROR - 2021-09-21 05:55:59 --> Cannot add foreign key constraint
+ERROR - 2021-09-21 05:56:01 --> Cannot add foreign key constraint
+CRITICAL - 2021-09-21 05:58:44 --> Undefined property: stdClass::$syarat_surat
+#0 C:\wamp64\www\nagari\app\Views\info\index.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 104, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('info/index', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Data.php(102): view('info/index', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Data->info()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+ERROR - 2021-09-21 06:00:39 --> Unknown column 'surat' in 'field list'
+CRITICAL - 2021-09-21 06:02:32 --> Undefined property: stdClass::$syarat_surat
+#0 C:\wamp64\www\nagari\app\Views\web\surat.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 10, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('web/surat', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Web.php(480): view('web/surat', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->surat()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-21 06:02:58 --> Undefined property: stdClass::$syarat_surat
+#0 C:\wamp64\www\nagari\app\Views\web\surat.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 10, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('web/surat', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Web.php(480): view('web/surat', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->surat()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-21 06:03:55 --> Undefined variable: datak
+#0 C:\wamp64\www\nagari\app\Views\web\surat.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 10, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('web/surat', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Web.php(480): view('web/surat', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->surat()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-21 06:15:56 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 15504504 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-21 07:03:31 --> Undefined variable: json
+#0 C:\wamp64\www\nagari\app\Controllers\Sku.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 162, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->getnik('SKTM')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-21 07:03:33 --> Too few arguments to function App\Controllers\Sku::getnik(), 0 passed in C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->getnik()
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#5 {main}
+ERROR - 2021-09-21 07:47:39 --> Column 'id_penduduk' cannot be null
+ERROR - 2021-09-21 07:56:17 --> Column 'id_penduduk' cannot be null
+ERROR - 2021-09-21 08:00:25 --> Column 'id_penduduk' cannot be null

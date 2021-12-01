@@ -1,0 +1,16 @@
+ERROR - 2021-10-04 23:36:55 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-10-04 23:36:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `foto` a...', Array, false)
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\nagari\app\Models\GaleriModel.php(41): CodeIgniter\Model->__call('get', Array)
+#4 C:\wamp64\www\nagari\app\Controllers\Web.php(31): App\Models\GaleriModel->gambar('Logo Icon')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->index()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}

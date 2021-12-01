@@ -1,0 +1,1418 @@
+CRITICAL - 2021-09-09 01:13:57 --> syntax error, unexpected ''aduan'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\n...')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 [internal function]: spl_autoload_call('Config\\Filters')
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Config\Factories.php(136): class_exists('Config\\Filters')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(197): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Config\Services.php(258): config('Filters')
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters(NULL, false)
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Config\Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters()
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#13 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#15 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#16 {main}
+CRITICAL - 2021-09-09 01:31:20 --> Undefined variable: berita
+#0 C:\wamp64\www\nagari\app\Views\galeri\index.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 69, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/index', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Galeri.php(36): view('galeri/index', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->index()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 01:33:06 --> Cannot use object of type mysqli as array
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/index', Array, true)
+#3 C:\wamp64\www\nagari\app\Controllers\Galeri.php(35): view('galeri/index', Array)
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->index()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#9 {main}
+CRITICAL - 2021-09-09 01:34:37 --> Cannot use object of type mysqli as array
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/index', Array, true)
+#3 C:\wamp64\www\nagari\app\Controllers\Galeri.php(35): view('galeri/index', Array)
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->index()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#9 {main}
+CRITICAL - 2021-09-09 01:48:00 --> Invalid file: galeri/index.php
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('galeri/index.ph...')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/index', Array, true)
+#2 C:\wamp64\www\nagari\app\Controllers\Galeri.php(35): view('galeri/index', Array)
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->index()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#8 {main}
+CRITICAL - 2021-09-09 01:48:14 --> Invalid file: galeri/index.php
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('galeri/index.ph...')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/index', Array, true)
+#2 C:\wamp64\www\nagari\app\Controllers\Galeri.php(35): view('galeri/index', Array)
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->index()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#8 {main}
+CRITICAL - 2021-09-09 01:48:23 --> Invalid file: galeri/index.php
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('galeri/index.ph...')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/index', Array, true)
+#2 C:\wamp64\www\nagari\app\Controllers\Galeri.php(35): view('galeri/index', Array)
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->index()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#8 {main}
+CRITICAL - 2021-09-09 01:49:14 --> Invalid file: galeri/index.php
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('galeri/index.ph...')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/index', Array, true)
+#2 C:\wamp64\www\nagari\app\Controllers\Galeri.php(35): view('galeri/index', Array)
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->index()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#8 {main}
+CRITICAL - 2021-09-09 01:49:52 --> Invalid file: galeri/index.php
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('galeri/index.ph...')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/index', Array, true)
+#2 C:\wamp64\www\nagari\app\Controllers\Galeri.php(35): view('galeri/index', Array)
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->index()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#8 {main}
+CRITICAL - 2021-09-09 01:50:30 --> Undefined variable: link
+#0 C:\wamp64\www\nagari\app\Views\galeri\input.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 21, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/input', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Galeri.php(70): view('galeri/input', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->input()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 01:50:52 --> Undefined variable: link
+#0 C:\wamp64\www\nagari\app\Views\galeri\input.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 21, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/input', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Galeri.php(70): view('galeri/input', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->input()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 02:04:13 --> Undefined property: stdClass::$judul
+#0 C:\wamp64\www\nagari\app\Controllers\Galeri.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 99, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->edit('8')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-09 02:04:35 --> Undefined variable: berita
+#0 C:\wamp64\www\nagari\app\Views\galeri\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 26, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/edit', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Galeri.php(110): view('galeri/edit', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->edit('8')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 02:05:26 --> Undefined property: stdClass::$judul
+#0 C:\wamp64\www\nagari\app\Views\galeri\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 26, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/edit', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Galeri.php(110): view('galeri/edit', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->edit('8')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 02:06:01 --> Undefined property: stdClass::$gambar
+#0 C:\wamp64\www\nagari\app\Views\galeri\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 32, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/edit', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Galeri.php(110): view('galeri/edit', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->edit('8')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 02:07:07 --> Undefined variable: berita
+#0 C:\wamp64\www\nagari\app\Views\galeri\view.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 14, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/view', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Galeri.php(53): view('galeri/view', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->view('8')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 02:07:58 --> Undefined variable: link
+#0 C:\wamp64\www\nagari\app\Views\galeri\view.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 20, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/view', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Galeri.php(53): view('galeri/view', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->view('8')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 02:08:11 --> Undefined property: stdClass::$gambar
+#0 C:\wamp64\www\nagari\app\Views\galeri\view.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 31, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/view', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Galeri.php(53): view('galeri/view', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->view('8')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 02:08:25 --> Undefined property: stdClass::$penulis
+#0 C:\wamp64\www\nagari\app\Views\galeri\view.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 39, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('galeri/view', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Galeri.php(53): view('galeri/view', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->view('8')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 02:14:48 --> Undefined property: stdClass::$judul
+#0 C:\wamp64\www\nagari\app\Controllers\Galeri.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 149, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Galeri->delete('8')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Galeri))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-09 02:38:31 --> Undefined variable: isi
+#0 C:\wamp64\www\nagari\app\Views\template\header.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 29, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/header', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(2): CodeIgniter\View\View->include('template/header')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Sku.php(72): view('surat/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 02:43:09 --> Undefined index: id_perangkat
+#0 C:\wamp64\www\nagari\app\Views\surat\input.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 72, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/input', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(149): view('surat/input', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->input()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 02:43:10 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 52432896 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-09 02:44:30 --> Undefined index: id_perangkat
+#0 C:\wamp64\www\nagari\app\Views\surat\input.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 72, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/input', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(149): view('surat/input', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->input()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 02:44:31 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 56627200 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-09 02:47:21 --> Undefined index: id_perangkat
+#0 C:\wamp64\www\nagari\app\Views\surat\input.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 72, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/input', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(149): view('surat/input', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->input()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 02:47:22 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 54530048 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-09 02:47:32 --> Undefined index: id_perangkat
+#0 C:\wamp64\www\nagari\app\Views\surat\input.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 72, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/input', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(149): view('surat/input', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->input()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 02:47:33 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 58724352 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-09 02:49:09 --> Undefined index: id_perangkat
+#0 C:\wamp64\www\nagari\app\Views\surat\input.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 72, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/input', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(149): view('surat/input', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->input()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 02:49:09 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 56627200 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-09 03:01:34 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 15504504 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-09 03:06:37 --> Undefined index: id_perangkat
+#0 C:\wamp64\www\nagari\app\Views\surat\input.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 72, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/input', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(149): view('surat/input', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->input()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 03:06:38 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 54530048 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-09 03:07:04 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 15504504 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-09 03:07:46 --> Undefined index: id_perangkat
+#0 C:\wamp64\www\nagari\app\Views\surat\input.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 72, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/input', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(149): view('surat/input', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->input()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 03:07:46 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 54530048 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-09 03:07:57 --> Undefined index: id_perangkat
+#0 C:\wamp64\www\nagari\app\Views\surat\input.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 72, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/input', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(149): view('surat/input', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->input()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 03:07:57 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 56627200 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-09 03:08:00 --> Undefined index: id_perangkat
+#0 C:\wamp64\www\nagari\app\Views\surat\input.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 72, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/input', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(149): view('surat/input', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->input()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 03:08:01 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 56627200 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-09 03:09:18 --> Undefined index: id_perangkat
+#0 C:\wamp64\www\nagari\app\Views\surat\input.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 72, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/input', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(149): view('surat/input', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->input()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 03:09:18 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 56627200 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-09 03:09:27 --> Undefined index: id_perangkat
+#0 C:\wamp64\www\nagari\app\Views\surat\input.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 72, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/input', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(149): view('surat/input', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->input()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+ERROR - 2021-09-09 03:11:29 --> Duplicate entry '1304022410070008' for key 'no_kk'
+ERROR - 2021-09-09 03:11:30 --> Duplicate entry '1304023011090001' for key 'no_kk'
+ERROR - 2021-09-09 03:14:32 --> Unknown column 'ttd' in 'field list'
+CRITICAL - 2021-09-09 03:16:14 --> Undefined property: stdClass::$ttd
+#0 C:\wamp64\www\nagari\app\Controllers\Sku.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 94, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->view('1')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-09 03:16:48 --> Undefined property: stdClass::$kab
+#0 C:\wamp64\www\nagari\app\Views\surat\view.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 42, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/view', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(98): view('surat/view', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->view('1')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 03:17:15 --> Call to undefined method App\Models\AlamatModel::getData
+#0 C:\wamp64\www\nagari\app\Controllers\Sku.php(92): CodeIgniter\Model->__call('getData', Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->view('1')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-09 03:17:31 --> Undefined property: stdClass::$logo
+#0 C:\wamp64\www\nagari\app\Views\surat\view.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 39, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/view', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(98): view('surat/view', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->view('1')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 03:19:48 --> Undefined property: stdClass::$no
+#0 C:\wamp64\www\nagari\app\Views\surat\view.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 53, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/view', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(101): view('surat/view', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->view('1')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 03:20:14 --> Undefined variable: ttd
+#0 C:\wamp64\www\nagari\app\Views\surat\edit.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 60, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/edit', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(191): view('surat/edit', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->edit('1')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 03:20:55 --> Undefined variable: ttd
+#0 C:\wamp64\www\nagari\app\Views\surat\edit.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 60, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/edit', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(191): view('surat/edit', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->edit('1')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 03:21:11 --> Undefined property: stdClass::$ttd
+#0 C:\wamp64\www\nagari\app\Views\surat\edit.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 62, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/edit', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(192): view('surat/edit', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->edit('1')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 03:21:36 --> Undefined property: stdClass::$ttd
+#0 C:\wamp64\www\nagari\app\Views\surat\edit.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 62, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/edit', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(192): view('surat/edit', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->edit('1')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 03:21:50 --> Undefined index: id_perangkat
+#0 C:\wamp64\www\nagari\app\Views\surat\edit.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 62, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/edit', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(192): view('surat/edit', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->edit('1')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 03:28:09 --> Undefined property: stdClass::$no
+#0 C:\wamp64\www\nagari\app\Views\surat\print.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 16, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('surat/print', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Sku.php(114): view('surat/print', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Sku->print('1')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sku))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-09 03:44:12 --> Call to a member function getData() on null
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->print()
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#5 {main}
+ERROR - 2021-09-09 08:01:54 --> Unknown column 'keluarga.alamat' in 'where clause'
+ERROR - 2021-09-09 08:01:54 --> Column 'tgl_update' in where clause is ambiguous
+ERROR - 2021-09-09 08:01:54 --> Column 'tgl_update' in where clause is ambiguous
+ERROR - 2021-09-09 08:01:54 --> Unknown column 'keluarga.alamat' in 'where clause'
+ERROR - 2021-09-09 08:01:54 --> Column 'tgl_update' in where clause is ambiguous
+ERROR - 2021-09-09 08:01:54 --> Column 'tgl_update' in where clause is ambiguous
+ERROR - 2021-09-09 08:01:54 --> Unknown column 'keluarga.alamat' in 'where clause'
+ERROR - 2021-09-09 08:01:54 --> Column 'tgl_update' in where clause is ambiguous
+ERROR - 2021-09-09 08:01:54 --> Column 'tgl_update' in where clause is ambiguous
+ERROR - 2021-09-09 08:02:16 --> Unknown column 'keluarga.alamat' in 'where clause'
+ERROR - 2021-09-09 08:02:16 --> Column 'tgl_update' in where clause is ambiguous
+ERROR - 2021-09-09 08:02:16 --> Column 'tgl_update' in where clause is ambiguous
+ERROR - 2021-09-09 08:02:16 --> Unknown column 'keluarga.alamat' in 'where clause'
+ERROR - 2021-09-09 08:02:16 --> Column 'tgl_update' in where clause is ambiguous
+ERROR - 2021-09-09 08:02:16 --> Column 'tgl_update' in where clause is ambiguous
+ERROR - 2021-09-09 08:02:16 --> Unknown column 'keluarga.alamat' in 'where clause'
+ERROR - 2021-09-09 08:02:16 --> Column 'tgl_update' in where clause is ambiguous
+ERROR - 2021-09-09 08:02:16 --> Column 'tgl_update' in where clause is ambiguous
+ERROR - 2021-09-09 08:05:48 --> Column 'tgl_update' in where clause is ambiguous
+ERROR - 2021-09-09 08:05:48 --> Column 'tgl_update' in where clause is ambiguous
+CRITICAL - 2021-09-09 08:35:15 --> Too few arguments to function App\Models\PendudukModel::totjekel(), 1 passed in C:\wamp64\www\nagari\app\Controllers\Home.php on line 40 and at least 2 expected
+#0 C:\wamp64\www\nagari\app\Controllers\Home.php(40): App\Models\PendudukModel->totjekel('Laki - Laki')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-09 08:44:17 --> Call to undefined method App\Models\PendudukModel::jmlUmurTua
+#0 C:\wamp64\www\nagari\app\Controllers\Home.php(54): CodeIgniter\Model->__call('jmlUmurTua', Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-09 08:55:11 --> Undefined variable: g
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 13, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('beranda/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Home.php(56): view('beranda/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 08:58:13 --> Undefined variable: g
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 13, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('beranda/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Home.php(56): view('beranda/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 08:59:13 --> Undefined variable: g
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 13, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('beranda/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Home.php(56): view('beranda/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 08:59:36 --> syntax error, unexpected '{', expecting '('
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\n...')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pend...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pend...')
+#3 C:\wamp64\www\nagari\app\Controllers\Home.php(16): spl_autoload_call('App\\Models\\Pend...')
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Home->__construct()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#9 {main}
+CRITICAL - 2021-09-09 08:59:40 --> Undefined variable: g
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 13, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('beranda/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Home.php(56): view('beranda/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 09:02:15 --> Undefined variable: g
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 13, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('penduduk/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Penduduk.php(76): view('penduduk/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Penduduk->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penduduk))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 09:02:20 --> Undefined variable: g
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 13, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('keluarga/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Keluarga.php(57): view('keluarga/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Keluarga->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 09:02:23 --> Undefined variable: g
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 13, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('keluarga/edit', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Keluarga.php(211): view('keluarga/edit', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Keluarga->edit('203')
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 09:02:42 --> Undefined variable: g
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 13, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('keluarga/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Keluarga.php(57): view('keluarga/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Keluarga->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 09:03:02 --> Undefined variable: g
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 13, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('keluarga/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Keluarga.php(57): view('keluarga/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Keluarga->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 09:03:05 --> Undefined variable: g
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 13, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('keluarga/edit', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Keluarga.php(211): view('keluarga/edit', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Keluarga->edit('203')
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 09:03:10 --> Undefined variable: g
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 13, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('keluarga/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Keluarga.php(57): view('keluarga/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Keluarga->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 09:03:41 --> Undefined variable: g
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 13, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('keluarga/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Keluarga.php(57): view('keluarga/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Keluarga->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 09:03:45 --> Undefined variable: g
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 13, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('perangkat/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Nagari.php(36): view('perangkat/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Nagari->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nagari))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 09:06:59 --> Undefined variable: chart
+#0 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 67, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('keluarga/index', Array, true)
+#5 C:\wamp64\www\nagari\app\Controllers\Keluarga.php(57): view('keluarga/index', Array)
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Keluarga->index()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#11 {main}
+CRITICAL - 2021-09-09 09:07:17 --> Undefined variable: chart
+#0 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 67, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('keluarga/index', Array, true)
+#5 C:\wamp64\www\nagari\app\Controllers\Keluarga.php(57): view('keluarga/index', Array)
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Keluarga->index()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#11 {main}
+CRITICAL - 2021-09-09 09:07:29 --> Undefined variable: g
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 13, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(68): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('keluarga/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Keluarga.php(57): view('keluarga/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Keluarga->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keluarga))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+ERROR - 2021-09-09 09:10:43 --> Duplicate entry '1304020410070022' for key 'no_kk'
+CRITICAL - 2021-09-09 09:11:08 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 15504488 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-09-09 09:12:00 --> Duplicate entry '1304020410070022' for key 'no_kk'
+CRITICAL - 2021-09-09 10:31:28 --> Undefined variable: m1
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 110, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(68): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('beranda/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Home.php(58): view('beranda/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 10:32:45 --> Undefined variable: m1
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 111, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(68): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('beranda/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Home.php(58): view('beranda/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 10:34:39 --> Undefined variable: m1
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 111, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(68): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('beranda/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Home.php(58): view('beranda/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 10:35:20 --> Undefined variable: l
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 140, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(68): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('beranda/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Home.php(58): view('beranda/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 10:36:03 --> Undefined variable: m1
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 111, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(68): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('beranda/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Home.php(58): view('beranda/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 10:36:16 --> Undefined variable: m1
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 111, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(68): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('beranda/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Home.php(58): view('beranda/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 10:37:49 --> Undefined variable: m1
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 111, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(68): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('beranda/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Home.php(58): view('beranda/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 10:50:58 --> syntax error, unexpected ')', expecting variable (T_VARIABLE)
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\n...')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pend...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pend...')
+#3 C:\wamp64\www\nagari\app\Controllers\Home.php(16): spl_autoload_call('App\\Models\\Pend...')
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Home->__construct()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#9 {main}
+CRITICAL - 2021-09-09 10:52:00 --> syntax error, unexpected ')', expecting variable (T_VARIABLE)
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\n...')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pend...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pend...')
+#3 C:\wamp64\www\nagari\app\Controllers\Home.php(16): spl_autoload_call('App\\Models\\Pend...')
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Home->__construct()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#9 {main}
+CRITICAL - 2021-09-09 10:52:41 --> syntax error, unexpected ')', expecting variable (T_VARIABLE)
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\n...')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pend...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pend...')
+#3 C:\wamp64\www\nagari\app\Controllers\Home.php(16): spl_autoload_call('App\\Models\\Pend...')
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Home->__construct()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#9 {main}
+ERROR - 2021-09-09 10:53:13 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:13 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:13 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:13 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:13 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:13 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:13 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:13 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:13 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:13 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:13 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:13 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:40 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:40 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:40 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:40 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:40 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:40 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:40 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:40 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:40 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:40 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:40 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:40 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:56 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:56 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:56 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:56 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:56 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:56 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:56 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:56 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:56 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:56 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:56 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:53:56 --> Unknown column 'nik' in 'where clause'
+CRITICAL - 2021-09-09 10:54:51 --> Undefined variable: link
+#0 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 67, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('mati/index', Array, true)
+#5 C:\wamp64\www\nagari\app\Controllers\Mati.php(39): view('mati/index', Array)
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Mati->index()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mati))
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#11 {main}
+CRITICAL - 2021-09-09 10:55:19 --> Undefined variable: link
+#0 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 67, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('mati/index', Array, true)
+#5 C:\wamp64\www\nagari\app\Controllers\Mati.php(39): view('mati/index', Array)
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Mati->index()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mati))
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#11 {main}
+CRITICAL - 2021-09-09 10:56:14 --> Undefined variable: link
+#0 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 67, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('mati/index', Array, true)
+#5 C:\wamp64\www\nagari\app\Controllers\Mati.php(39): view('mati/index', Array)
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Mati->index()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mati))
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#11 {main}
+CRITICAL - 2021-09-09 10:56:21 --> Undefined variable: link
+#0 C:\wamp64\www\nagari\app\Views\template\index.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 67, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('mati/index', Array, true)
+#5 C:\wamp64\www\nagari\app\Controllers\Mati.php(39): view('mati/index', Array)
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Mati->index()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mati))
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#11 {main}
+ERROR - 2021-09-09 10:56:55 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:56:55 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:56:55 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:56:55 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:56:55 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:56:55 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:56:55 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:56:55 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:56:55 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:56:55 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:56:55 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:56:55 --> Unknown column 'nik' in 'where clause'
+CRITICAL - 2021-09-09 10:57:22 --> Class 'Myth\Auth\Authentication\Passwords\ValidationRules' not found
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\wamp64\www\nagari\app\Controllers\Mati.php(103): CodeIgniter\Validation\Validation->run()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Mati->add()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mati))
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#7 {main}
+ERROR - 2021-09-09 10:58:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:58:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:58:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:58:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:58:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:58:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:58:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:58:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:58:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:58:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:58:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 10:58:06 --> Unknown column 'nik' in 'where clause'
+CRITICAL - 2021-09-09 10:58:34 --> Class 'Myth\Auth\Authentication\Passwords\ValidationRules' not found
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Validation\Validation.php(115): CodeIgniter\Validation\Validation->loadRuleSets()
+#1 C:\wamp64\www\nagari\app\Controllers\Mati.php(103): CodeIgniter\Validation\Validation->run()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Mati->add()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mati))
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#7 {main}
+ERROR - 2021-09-09 11:01:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:01:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:01:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:01:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:01:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:01:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:01:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:01:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:01:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:01:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:01:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:01:06 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:02:43 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:02:43 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:02:43 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:02:43 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:02:43 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:02:43 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:02:43 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:02:43 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:02:43 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:02:43 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:02:43 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:02:43 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:04:41 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:04:41 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:04:41 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:04:41 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:04:41 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:04:41 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:04:41 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:04:41 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:04:41 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:04:41 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:04:41 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:04:41 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:05:47 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:05:47 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:05:47 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:05:47 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:05:47 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:05:47 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:05:47 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:05:47 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:05:47 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:05:47 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:05:47 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:05:47 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:07:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:08:23 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:08:23 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:08:23 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:08:23 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:08:23 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:08:23 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:08:23 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:08:23 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:08:23 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:08:23 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:08:23 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:08:23 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:09 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:09 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:09 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:09 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:09 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:09 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:09 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:09 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:09 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:09 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:09 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:09 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:09:45 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:19 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:10:31 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:11:18 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:11:18 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:11:18 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:11:18 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:11:18 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:11:18 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:11:18 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:11:18 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:11:18 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:11:18 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:11:18 --> Unknown column 'nik' in 'where clause'
+ERROR - 2021-09-09 11:11:18 --> Unknown column 'nik' in 'where clause'
+CRITICAL - 2021-09-09 11:28:41 --> Undefined variable: l
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 97, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(68): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('beranda/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Home.php(71): view('beranda/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 11:28:54 --> Undefined variable: l
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 97, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(68): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('beranda/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Home.php(71): view('beranda/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 11:31:03 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\wamp64\\www\\n...', 61, Array)
+#1 C:\wamp64\www\nagari\app\Controllers\Home.php(61): count(0)
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#7 {main}
+CRITICAL - 2021-09-09 11:55:15 --> Undefined offset: 12
+#0 C:\wamp64\www\nagari\app\Controllers\Home.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\n...', 72, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-09 22:37:55 --> Array to string conversion
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\n...', 99, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(68): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('beranda/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Home.php(76): view('beranda/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}
+CRITICAL - 2021-09-09 23:39:41 --> Call to a member function where() on string
+#0 C:\wamp64\www\nagari\app\Controllers\Home.php(75): App\Models\PendudukModel->tot('penduudk', Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-09 23:39:56 --> syntax error, unexpected ')', expecting ';'
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\n...')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pend...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pend...')
+#3 C:\wamp64\www\nagari\app\Controllers\Home.php(16): spl_autoload_call('App\\Models\\Pend...')
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(779): App\Controllers\Home->__construct()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#9 {main}
+ERROR - 2021-09-09 23:40:10 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-09 23:40:10 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-09 23:40:10 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-09 23:40:10 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-09 23:40:10 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-09 23:40:36 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-09 23:40:36 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-09 23:40:36 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-09 23:40:36 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-09 23:40:36 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-09 23:40:53 --> Operand should contain 1 column(s)
+ERROR - 2021-09-09 23:40:53 --> Operand should contain 1 column(s)
+ERROR - 2021-09-09 23:40:53 --> Operand should contain 1 column(s)
+ERROR - 2021-09-09 23:40:53 --> Operand should contain 1 column(s)
+ERROR - 2021-09-09 23:40:53 --> Operand should contain 1 column(s)
+CRITICAL - 2021-09-09 23:45:08 --> Undefined variable: l
+#0 C:\wamp64\www\nagari\app\Views\template\chart.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 148, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('template/chart', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\template\index.php(68): CodeIgniter\View\View->include('template/chart')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('beranda/index', Array, true)
+#9 C:\wamp64\www\nagari\app\Controllers\Home.php(78): view('beranda/index', Array)
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#15 {main}

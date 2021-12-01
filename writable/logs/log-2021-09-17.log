@@ -1,0 +1,246 @@
+CRITICAL - 2021-09-17 00:27:18 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-09-17 01:59:53 --> Undefined property: App\Controllers\Web::$mohon
+#0 C:\wamp64\www\nagari\app\Controllers\Web.php(426): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\n...', 426, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-17 02:00:37 --> Undefined variable: berita
+#0 C:\wamp64\www\nagari\app\Views\web\data.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 52, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('web/data', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Web.php(422): view('web/data', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-17 02:36:56 --> Undefined variable: g
+#0 C:\wamp64\www\nagari\app\Views\web\template.php(182): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 182, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('web/template', Array, true)
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('web/index', Array, true)
+#5 C:\wamp64\www\nagari\app\Controllers\Web.php(50): view('web/index', Array)
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->index()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#8 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#11 {main}
+CRITICAL - 2021-09-17 03:45:35 --> Undefined variable: base_url
+#0 C:\wamp64\www\nagari\app\Views\web\data.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 12, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('web/data', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Web.php(376): view('web/data', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-17 07:20:47 --> Cannot use [] for reading
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#5 {main}
+CRITICAL - 2021-09-17 07:20:57 --> Undefined index: nama
+#0 C:\wamp64\www\nagari\app\Controllers\Web.php(389): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 389, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-17 07:21:09 --> Undefined index: nama
+#0 C:\wamp64\www\nagari\app\Controllers\Web.php(389): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 389, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-17 07:23:52 --> Call to a member function select() on array
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#5 {main}
+CRITICAL - 2021-09-17 07:24:02 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Model.php(719): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\nagari\app\Controllers\Web.php(389): CodeIgniter\Model->__call('select', Array)
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#8 {main}
+CRITICAL - 2021-09-17 07:27:04 --> Undefined index: nama
+#0 C:\wamp64\www\nagari\app\Views\web\chartweb.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 85, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('web/chartweb', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\web\data.php(77): CodeIgniter\View\View->include('web/chartweb')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('web/data', Array, true)
+#8 C:\wamp64\www\nagari\app\Controllers\Web.php(391): view('web/data', Array)
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#14 {main}
+CRITICAL - 2021-09-17 07:27:42 --> Undefined variable: pen
+#0 C:\wamp64\www\nagari\app\Views\web\chartweb.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 85, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('web/chartweb', NULL, true)
+#4 C:\wamp64\www\nagari\app\Views\web\data.php(77): CodeIgniter\View\View->include('web/chartweb')
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('web/data', Array, true)
+#8 C:\wamp64\www\nagari\app\Controllers\Web.php(395): view('web/data', Array)
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#10 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#11 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#14 {main}
+ERROR - 2021-09-17 07:35:48 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:35:48 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:35:48 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:35:48 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:35:48 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:35:48 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:35:48 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:35:48 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:35:48 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:35:48 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:35:48 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:36:09 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:36:09 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:36:09 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:36:09 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:36:09 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:36:09 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:36:09 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:36:09 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:36:09 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:36:09 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:36:09 --> Table 'dbnagari.penduudk' doesn't exist
+CRITICAL - 2021-09-17 07:36:21 --> Illegal string offset 'nama'
+#0 C:\wamp64\www\nagari\app\Controllers\Web.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\n...', 392, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-09-17 07:37:05 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:37:05 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:37:05 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:37:05 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:37:05 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:37:05 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:37:05 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:37:05 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:37:05 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:37:05 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:37:05 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:13 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:13 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:13 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:13 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:13 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:13 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:13 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:13 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:13 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:13 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:13 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:28 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:28 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:28 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:28 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:28 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:28 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:28 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:28 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:28 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:28 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:28 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:54 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:54 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:54 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:54 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:54 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:54 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:54 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:54 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:54 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:54 --> Table 'dbnagari.penduudk' doesn't exist
+ERROR - 2021-09-17 07:38:54 --> Table 'dbnagari.penduudk' doesn't exist
+CRITICAL - 2021-09-17 08:45:07 --> Undefined offset: 10
+#0 C:\wamp64\www\nagari\app\Controllers\Web.php(400): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\wamp64\\www\\n...', 400, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-17 08:45:39 --> Undefined variable: kerja
+#0 C:\wamp64\www\nagari\app\Controllers\Web.php(400): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 400, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-09-17 09:05:00 --> Array to string conversion
+#0 C:\wamp64\www\nagari\app\Views\web\data.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\wamp64\\www\\n...', 51, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('web/data', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Web.php(409): view('web/data', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-17 09:05:36 --> Invalid argument supplied for foreach()
+#0 C:\wamp64\www\nagari\app\Views\web\data.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\wamp64\\www\\n...', 48, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('web/data', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Web.php(409): view('web/data', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}
+CRITICAL - 2021-09-17 09:06:55 --> Undefined variable: kerka
+#0 C:\wamp64\www\nagari\app\Views\web\data.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\n...', 51, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\wamp64\\www\\n...')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('web/data', Array, true)
+#4 C:\wamp64\www\nagari\app\Controllers\Web.php(407): view('web/data', Array)
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Web->data()
+#6 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Web))
+#7 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#10 {main}

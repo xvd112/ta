@@ -1,0 +1,206 @@
+CRITICAL - 2021-11-07 22:45:10 --> Too few arguments to function App\Models\PerangkatModel::getPerangkat(), 1 passed in C:\wamp64\www\nagari\app\Controllers\Auth.php on line 48 and exactly 2 expected
+#0 C:\wamp64\www\nagari\app\Controllers\Auth.php(48): App\Models\PerangkatModel->getPerangkat('15')
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->cek_login()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-11-07 23:01:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 0' at line 4
+ERROR - 2021-11-07 23:01:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 4
+ERROR - 2021-11-07 23:01:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 4
+ERROR - 2021-11-07 23:01:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 0' at line 5
+ERROR - 2021-11-07 23:01:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 0' at line 5
+ERROR - 2021-11-07 23:01:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+ERROR - 2021-11-07 23:01:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+ERROR - 2021-11-07 23:01:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+ERROR - 2021-11-07 23:01:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+CRITICAL - 2021-11-07 23:01:50 --> Undefined index: 
+#0 C:\wamp64\www\nagari\app\Controllers\Rekap.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 104, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Rekap->proses()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-11-07 23:04:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 0' at line 4
+ERROR - 2021-11-07 23:04:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 4
+ERROR - 2021-11-07 23:04:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 4
+ERROR - 2021-11-07 23:04:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 0' at line 5
+ERROR - 2021-11-07 23:04:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 0' at line 5
+ERROR - 2021-11-07 23:04:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+ERROR - 2021-11-07 23:04:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+ERROR - 2021-11-07 23:04:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+ERROR - 2021-11-07 23:04:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+CRITICAL - 2021-11-07 23:04:59 --> Undefined index: 
+#0 C:\wamp64\www\nagari\app\Controllers\Rekap.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 104, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Rekap->proses()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-11-07 23:24:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 0' at line 4
+ERROR - 2021-11-07 23:24:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 4
+ERROR - 2021-11-07 23:24:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 4
+ERROR - 2021-11-07 23:24:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 0' at line 5
+ERROR - 2021-11-07 23:24:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 0' at line 5
+ERROR - 2021-11-07 23:24:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+ERROR - 2021-11-07 23:24:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+ERROR - 2021-11-07 23:24:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+ERROR - 2021-11-07 23:24:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+CRITICAL - 2021-11-07 23:24:28 --> Undefined index: 
+#0 C:\wamp64\www\nagari\app\Controllers\Rekap.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 147, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Rekap->print()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-11-07 23:26:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 0' at line 4
+ERROR - 2021-11-07 23:26:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 0' at line 5
+ERROR - 2021-11-07 23:26:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 0' at line 5
+ERROR - 2021-11-07 23:26:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 4
+ERROR - 2021-11-07 23:26:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+ERROR - 2021-11-07 23:26:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+ERROR - 2021-11-07 23:26:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 4
+ERROR - 2021-11-07 23:26:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+ERROR - 2021-11-07 23:26:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+CRITICAL - 2021-11-07 23:26:08 --> Undefined index: 
+#0 C:\wamp64\www\nagari\app\Controllers\Rekap.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 144, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Rekap->print()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+ERROR - 2021-11-07 23:26:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 0' at line 4
+ERROR - 2021-11-07 23:26:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 0' at line 5
+ERROR - 2021-11-07 23:26:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 0' at line 5
+ERROR - 2021-11-07 23:26:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 4
+ERROR - 2021-11-07 23:26:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+ERROR - 2021-11-07 23:26:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+ERROR - 2021-11-07 23:26:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 4
+ERROR - 2021-11-07 23:26:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+ERROR - 2021-11-07 23:26:22 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IS NULL
+AND month(penduduk.tgl_update) < IS NULL
+AND `keluarga`.`alamat` = 'Joro' at line 5
+CRITICAL - 2021-11-07 23:26:22 --> Undefined index: 
+#0 C:\wamp64\www\nagari\app\Controllers\Rekap.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 144, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Rekap->print()
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-11-07 23:27:52 --> Too few arguments to function App\Controllers\Rekap::print(), 0 passed in C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 2 expected
+#0 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Rekap->print()
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#5 {main}
+CRITICAL - 2021-11-07 23:28:05 --> Undefined index: NOVEMBER
+#0 C:\wamp64\www\nagari\app\Controllers\Rekap.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 144, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Rekap->print('NOVEMBER', '2021')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
+CRITICAL - 2021-11-07 23:28:22 --> Undefined index: NOVEMBER
+#0 C:\wamp64\www\nagari\app\Controllers\Rekap.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\n...', 144, Array)
+#1 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Rekap->print('NOVEMBER', '2021')
+#2 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rekap))
+#3 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\nagari\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\nagari\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\n...')
+#6 {main}
